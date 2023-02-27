@@ -6,7 +6,7 @@ void e1(String name){ // Write a program in Dart to print your own name using fu
   print("Your name is $name");
 }
 void e2(int l, int r){ // Write a program in Dart to print even numbers between intervals using function
-  assert(l < r);
+  assert(l <= r);
   if(l % 2 == 1){
     ++l;
   }
